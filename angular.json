@@ -37,7 +37,9 @@
               "src/styles.scss"
             ],
             "scripts": [
-              "src/scripts.js"
+              "src/scripts.js",
+              "node_modules/gsap/dist/gsap.min.js",
+              "node_modules/zepto/dist/zepto.min.js"
             ]
           },
           "configurations": {
