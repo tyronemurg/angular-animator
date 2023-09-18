@@ -8,6 +8,7 @@ declare const $: any;
   styleUrls: ['./slider.component.scss']
 })
 export class SliderComponent implements OnInit  {
+  //ngOnInit() {}
   xPos = 0;
 
   getBgPos(i: number) {
