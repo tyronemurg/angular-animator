@@ -7,7 +7,8 @@ import { NavbarComponent } from './partials/navbar/navbar.component';
 import { HomeComponent } from './pages/home/home.component';
 import { FooterComponent } from './partials/footer/footer.component';
 import { FormsModule } from '@angular/forms';
-import { SliderComponent } from './pages/slider/slider.component'; 
+import { SliderComponent } from './pages/slider/slider.component';
+import { HippoComponent } from './pages/hippo/hippo.component'; 
 
 
 @NgModule({
@@ -17,6 +18,7 @@ import { SliderComponent } from './pages/slider/slider.component';
     HomeComponent,
     FooterComponent,
     SliderComponent,
+    HippoComponent,
   ],
   imports: [
     BrowserModule,
